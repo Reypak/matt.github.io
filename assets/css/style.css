@@ -65,6 +65,53 @@ p {
   color: #fff;
 }
 
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+strong {
+  font-weight: 700;
+  color: #36363c;
+}
+
+.skills .skillz {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 630px) {
+  .skills .skillz {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .skills .skillz__category {
+    width: 47%;
+    margin-right: 5px;
+    margin-bottom: 25px;
+  }
+}
+
+.skills .skillz__category__label {
+  font-weight: 700;
+  color: #36363c;
+  text-transform: uppercase;
+}
+
+.skills .skillz__category__item {
+  margin: 3px 0;
+  font-size: 0.9rem;
+}
+
 /*--------------------------------------------------*/
 
 .section {
@@ -210,7 +257,7 @@ p {
 }
 
 .paddsection {
-  padding-top: 90px;
+  /*padding-top: 90px;*/
   padding-bottom: 90px;
 }
 
@@ -525,6 +572,10 @@ p {
   width: 100%;
 }
 
+div#hero {
+    padding: 30px;
+}
+
 #hero .hero-content {
   height: 100vh;
   text-align: left;
@@ -666,6 +717,7 @@ p {
   background: #f7f7f7;
   position: relative;
   padding-bottom: 80px;
+  padding: 20px;
 }
 
 .services-block span {
