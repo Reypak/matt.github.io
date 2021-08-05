@@ -1,10 +1,3 @@
-/**
-* Template Name: Folio - v4.3.0
-* Template URL: https://bootstrapmade.com/folio-bootstrap-portfolio-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -65,6 +58,7 @@ p {
   color: #fff;
 }
 
+/*--------------------------------------------------*/
 
 ul {
   list-style: none;
@@ -76,6 +70,129 @@ strong {
   font-weight: 700;
   color: #36363c;
 }
+
+/*--------------------------------------------------*/
+
+.contact-details i {
+  font-size: 1.05rem;
+  padding-right: 10px;
+}
+
+.col-lg-7{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+h3 i {
+   font-size: 25px;
+}
+
+@media screen and (max-width: 550px) {
+  .intro__contact {
+    font-size: 1.05rem;
+    line-height: 1.5;
+  }
+  
+  h3 i {
+   font-size: 1rem;
+  }
+}
+
+.intro__contact .emoji.pointer {
+  background-image: url(../img/emojis/pointright.png);
+  width: 30px;
+  height: 30px;
+  margin: 0 5px;
+  vertical-align: text-bottom;
+}
+
+@media screen and (max-width: 550px) {
+  .intro__contact .emoji.pointer {
+    width: 25px;
+    height: 25px;
+  }
+}
+
+.highlight-link {
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  font-weight: 400;
+  text-decoration: none;
+  display: inline-block;
+  padding: 2px 3px;
+  text-decoration: none;
+  -webkit-box-shadow: inset 0 -3px 0 #b8a07e;
+  box-shadow: inset 0 -3px 0 #b8a07e;
+}
+
+.highlight-link:hover {
+  -webkit-box-shadow: inset 0 -33px 0 0 #b8a07e;
+  box-shadow: inset 0 -33px 0 0 #b8a07e;
+  color: #fff;
+}
+
+/*--------------------------------------------------*/
+
+.job i {
+  font-size: 1.2rem;
+}
+
+.experience .jobs {
+  margin-bottom: 100px;
+}
+
+.experience .job {
+  margin-bottom: 25px;
+}
+
+.experience .job .time-place {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 480px) {
+  .experience .job .time-place {
+    display: block;
+  }
+
+  .experience .jobs {
+    margin-bottom: 50px;
+  }
+}
+
+.job__position {
+  font-size: 0.9rem;
+}
+
+.experience .job__company {
+  font-weight: 700;
+}
+
+.experience .job__time {
+  font-size: 0.9rem;
+}
+
+@media screen and (max-width: 480px) {
+  .experience .job__time {
+    font-size: 0.8rem;
+  }
+}
+
+.experience .arrow-link {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.experience .arrow-link:after {
+  width: 20px;
+  height: 20px;
+}
+
+/*--------------------------------------------------*/
 
 .skills .skillz {
   display: -webkit-box;
@@ -132,7 +249,7 @@ strong {
 
 @media screen and (max-width: 1024px) {
   .section {
-    padding: 50px;
+    padding: 20px 50px 50px;
   }
 }
 
@@ -144,7 +261,7 @@ strong {
 
 @media screen and (max-width: 480px) {
   .section {
-    padding: 50px 35px;
+    padding: 20px 35px 50px;
   }
 }
 
@@ -189,7 +306,6 @@ strong {
 @media screen and (max-width: 768px) {
   .section__content {
     padding-top: 30px;
-    padding-left: 50px;
   }
 }
 
@@ -682,6 +798,13 @@ div#hero {
   padding-top: 120px;
 }
 
+@media screen and (max-width: 550px) {
+  #about {
+    padding-top: 50px;
+  }
+}
+
+
 #about .div-img-bg {
   padding-bottom: 30px;
   border: 20px solid #b8a07e;
@@ -706,7 +829,7 @@ div#hero {
 
 #about .about-descr .separator {
   max-width: 80%;
-  margin-bottom: 0;
+  margin-bottom: 50px;
   text-align: left;
 }
 
@@ -976,6 +1099,10 @@ div#hero {
 #contact {
   height: auto;
   width: 100%;
+}
+
+div#contact {
+    padding: 20px;
 }
 
 .contact-details {
@@ -1298,6 +1425,7 @@ blockquote {
   #about .about-descr .separator {
     max-width: 100%;
     margin-bottom: 0;
+    padding-bottom: 50px;
   }
   /* portfolio */
   #portfolio .portfolio-list .nav li {
@@ -1438,6 +1566,7 @@ blockquote {
   #about .about-descr .separator {
     max-width: 100%;
     margin-bottom: 0;
+    padding-bottom: 50px;
   }
   /* portfolio */
   #portfolio .portfolio-list .nav li {
@@ -1496,11 +1625,13 @@ blockquote {
     font-size: 32px;
   }
   #about .div-img-bg {
+    border-radius: 40px;
     padding: 0;
   }
   #about .div-img-bg .about-img img {
     margin-top: 0%;
     margin-left: calc(0% - 0px);
+    height: 300px;
   }
   #about .about-descr .p-heading {
     font-size: 20px;

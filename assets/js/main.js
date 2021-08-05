@@ -1,9 +1,3 @@
-/**
-* Template Name: Folio - v4.3.0
-* Template URL: https://bootstrapmade.com/folio-bootstrap-portfolio-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 (function() {
   "use strict";
 
@@ -258,5 +252,23 @@
       clickable: true
     }
   });
+
+  window.sr = ScrollReveal({
+    reset: false,
+    duration: 600,
+    easing: "cubic-bezier(.694,0,.335,1)",
+    scale: 1,
+    viewFactor: 0.3
+  });
+
+  sr.reveal(".p-heading");
+  sr.reveal(".div-img-bg");
+  sr.reveal(".services");
+  sr.reveal(".intro__contact");
+  sr.reveal(".section__content");
+  sr.reveal(".section-title");
+  sr.reveal(".section__title", { viewFactor: 0.2 });
+
+  sr.clean('.p-heading.div-img-bg');
 
 })()
