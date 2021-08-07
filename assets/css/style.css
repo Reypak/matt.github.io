@@ -84,7 +84,7 @@ strong {
 }
 
 h3 i {
-   font-size: 25px;
+ font-size: 25px;
 }
 
 @media screen and (max-width: 550px) {
@@ -95,7 +95,7 @@ h3 i {
   
   h3 i {
    font-size: 1rem;
-  }
+ }
 }
 
 .intro__contact .emoji.pointer {
@@ -132,10 +132,6 @@ h3 i {
 }
 
 /*--------------------------------------------------*/
-
-h1.hidden{
-  display: none;
-}
 
 .job i {
   font-size: 1.2rem;
@@ -693,7 +689,7 @@ h1.hidden{
 }
 
 div#hero {
-    padding: 30px;
+  padding: 30px;
 }
 
 #hero .hero-content {
@@ -1106,7 +1102,7 @@ div#hero {
 }
 
 div#contact {
-    padding: 20px;
+  padding: 20px;
 }
 
 .contact-details {
@@ -1386,7 +1382,7 @@ blockquote {
 /** Width between 768px to 991px
  *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
-@media (min-width: 768px) and (max-width: 991px) {
+ @media (min-width: 768px) and (max-width: 991px) {
   /* Navbar */
   nav {
     padding: 10px 15px;
@@ -1457,7 +1453,7 @@ blockquote {
 /** Width between 767px to 0
  *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
-@media (max-width: 767px) {
+ @media (max-width: 767px) {
   /* Navbar */
   nav {
     padding: 20px 15px;
@@ -1527,7 +1523,7 @@ blockquote {
 /** Width between 600px to 0
  *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
-@media (max-width: 600px) {
+ @media (max-width: 600px) {
   /* Navbar */
   nav {
     padding: 20px 15px;
@@ -1598,7 +1594,7 @@ blockquote {
 /** Width between 480px to 0
  *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
-@media (max-width: 480px) {
+ @media (max-width: 480px) {
   /* Navbar */
   nav {
     padding: 20px 15px;
@@ -1669,7 +1665,7 @@ blockquote {
 /** Width between 320px to 0
  *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
-@media (max-width: 320px) {
+ @media (max-width: 320px) {
   /* Navbar */
   nav {
     padding: 20px 15px;
